@@ -1,0 +1,10 @@
+/** Specify your support level **/
+:root{
+    --support-level: 1;
+}
+ 
+/** Apply grayscale filter to the entire page **/
+html{
+    -webkit-filter: grayscale(var(--support-level)) !important;
+    filter: grayscale(var(--support-level)) !important;
+}
